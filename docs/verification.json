@@ -1,0 +1,45 @@
+{
+  "kind": "recorded_local_result",
+  "checked_on": "2026-10-29",
+  "platform": "macOS",
+  "jdk": {
+    "version": "17.0.14",
+    "vendor": "Amazon.com Inc."
+  },
+  "source_baseline": "5e0c60cafab93dce48a5a47a52ca34c6389a9a31",
+  "checks": [
+    {
+      "module": "Ejercicio1",
+      "command": "sh ./mvnw verify",
+      "tests": {
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "log_sha256": "eb5f9d2050a1d5ef9233bbdabf1ea2e71747d3244df1da345d78632bb91737e4",
+      "junit_xml_sha256": [
+        "fb2e898f9857be699198ba3e001d8045e1b07cdb240c4c07d8d5f3629d5ff8d0",
+        "e810ba36ef95137fe212c8a948c5b283d36ccee1fed2466882b2754cdf196ae7"
+      ]
+    },
+    {
+      "module": "Ejercicio2",
+      "command": "sh ./mvnw verify",
+      "tests": {
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "log_sha256": "7003c8cfc407d85b4a4e65aa84a21268fa31d46f881b3c62aae1f91b0c0816ed",
+      "junit_xml_sha256": [
+        "d072c62a7a3d12b66ed3ac8d535b9942e84ebd8d91c8e02d1624b956c3f51589",
+        "dd75306da97b22f19f99cfebccd5ec582b9e4b38a32d9af61778a205a3c21686"
+      ]
+    }
+  ],
+  "test_total": 6,
+  "hosted_ci_run": null,
+  "scope": "Original Maven pins; local JDK17 tests/package with isolated Maven settings/repository. No hosted/production result is implied."
+}

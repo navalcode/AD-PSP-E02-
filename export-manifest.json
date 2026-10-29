@@ -1,0 +1,42 @@
+[
+  {
+    "path": ".gitignore",
+    "sha256": "d9e4dde6ac95bdecfc0e037612ddcc901eb8d87b139d3acb70ae8c6ac385a535"
+  },
+  {
+    "path": "DESIGN.md",
+    "sha256": "0a520730a7eb2ba9ba2cb3335bdd07e8fd3ad114ea6151cd9f86badde830b217"
+  },
+  {
+    "path": "Ejercicio1/src/main/java/com/salesianostriana/Ejercicio1/model/Pais.java",
+    "sha256": "8537532780b233b55b8b8e145abfcbc5550920bf2b92105e48af9a7deedca7f1"
+  },
+  {
+    "path": "Ejercicio1/src/test/java/com/salesianostriana/Ejercicio1/CountryMappingTest.java",
+    "sha256": "4b6c2754ff9c708205bf2425cf4e40ef6f91661339cf14c7c03c5b17f6ffe4d7"
+  },
+  {
+    "path": "Ejercicio2/src/main/java/com/salesianostriana/Ejercicio2/model/Producto.java",
+    "sha256": "0ab4229ee548d5007d2d36794abeb58744f6b58bfbd0e2b767c939e754928262"
+  },
+  {
+    "path": "Ejercicio2/src/test/java/com/salesianostriana/Ejercicio2/ProductMappingTest.java",
+    "sha256": "584a12e3e7535db4091bca676f4b9230f82a8bc9d001cd391a19223a9bdcb453"
+  },
+  {
+    "path": "README.es.md",
+    "sha256": "9d348a0e97f729e81e9a8b7c9d814a61e3078b31da65f84533e15c755d6e6772"
+  },
+  {
+    "path": "README.md",
+    "sha256": "11f4091268461184da15867f38e55806158e62d74e532b4c843bd82087df1be7"
+  },
+  {
+    "path": "THIRD_PARTY.md",
+    "sha256": "b5d04f1ad6b5210da1877f546dc16f116f94e857d5f0069d739b4cbd0a62b09e"
+  },
+  {
+    "path": "docs/verification.json",
+    "sha256": "22af51332b308f4b6ca5aa41b34004192698fdcc0c89fa95c8b4db58ae63fc86"
+  }
+]

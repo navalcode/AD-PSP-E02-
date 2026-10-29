@@ -9,9 +9,8 @@ public class Producto {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    //para cada propiedad marcamos la propiedad optional false para que a nivel java no pueda ser nulo,
-    //marcamos también a nivel columna/bbdd el nombre de la columna al que hace referencia cad propiedad,
-    // y marcamos con nullable= false aquellas que queramos no sean nulas.
+    // optional/nullable describen el contrato ORM/SQL, no validación de entrada.
+    // precio es double: su ausencia no se representa con null, sino con su valor por defecto.
     @Basic(optional = false)
     @Column(name = "name",nullable = false)
     private String nombre;
@@ -27,4 +26,14 @@ public class Producto {
 
     @Column(name = "description", columnDefinition="TEXT")
     private String descripcion;
+
+    public Producto() {}
+    public Producto(String name, double price, String image, String description) {
+        this.nombre = name; this.precio = price; this.imagen = image; this.descripcion = description;
+    }
+    public Long getId() { return id; }
+    public String getName() { return nombre; }
+    public double getPrice() { return precio; }
+    public String getImage() { return imagen; }
+    public String getDescription() { return descripcion; }
 }
